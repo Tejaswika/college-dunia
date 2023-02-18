@@ -1,0 +1,154 @@
+.Card {
+    width: calc(33% - 1em);
+    margin-bottom: 2em;
+    border: 1px solid grey;
+}
+
+.ImgBackGround {
+    width: 100%;
+    height: 180px;
+}
+
+.CollegeDetails {
+    display: flex;
+    gap: 1em;
+    position: relative;
+    bottom: 5%;
+    left: 3%;
+}
+
+.Logo {
+    width: 15%;
+    height: 50px;
+    background: white;
+    padding: 2%;
+    box-shadow: 2px 2px 15px 1px #111;
+}
+
+.CollegeName h1 {
+    margin: 0;
+    font-size: 1em;
+}
+
+.CollegeName h2 {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.CollegeName p {
+    color: gray;
+    margin-top: 0.5em;
+}
+
+.Rating {
+    display: flex;
+}
+
+.Ranking {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-top: 0.5px solid black;
+    padding-top: 2%;
+    margin-top: 3%;
+    color: grey;
+    padding: 1% 5%;
+    font-size: .8em;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.BackGround {
+    position: relative;
+    color: white;
+}
+
+.BackgroundEffect {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+}
+
+.BackGroundIcon {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    display: flex;
+    gap: 7em;
+}
+
+.BackGroundIconLeft {
+    display: flex;
+    gap: 1em;
+}
+
+.BackGroundIconRight,
+.IconWrapper {
+    display: flex;
+    gap: 1em;
+    align-items: flex-end;
+}
+
+.BackGround p {
+    font-size: .6em;
+}
+
+.CollegeName {
+    color: white;
+}
+
+.BackGroundRating {
+    text-align: end;
+}
+
+.SubRanking {
+    padding: 1% 5%;
+}
+
+.SubRanking h1 {
+    color: #ff6207;
+    font-size: 1.2em;
+}
+
+.SubRanking h3 {
+    font-size: 0.6em;
+    color: gray;
+}
+
+.Bar {
+    display: flex;
+    font-size: .7em;
+    padding: 5%;
+    color: grey;
+    background: rgb(243, 243, 243);
+    justify-content: space-evenly;
+}
+
+.ButtonWrapper {
+    display: flex;
+}
+
+.ButtonApply {
+    border: none;
+    padding: 5%;
+    width: 100%;
+    color: white;
+    background: #ff6207;
+    font-size: 1em;
+}
+
+.ButtonBrochure {
+    border: none;
+    padding: 5%;
+    width: 100%;
+    background: white;
+    color: #ff6207;
+    font-size: 1em;
+}
